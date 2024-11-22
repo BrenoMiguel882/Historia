@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A caça</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/4.jpg"alt="passo-0.jpg">
+            <p>Um dia um caçador em sua caçada a um servo, escuta dois barulhos de duas estradas, um mais forte e outro mais manso, a duvida o persegue</p>
+            <button class="btn-proximo" data-proximo="1">Ir no mais forte</button>
+            <button class="btn-proximo" data-proximo="2">Ir no mais manso</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ao ir no mais forte, o caçador se depara com uma onça, que avança no caçador, ele reage....</p>
+            <button class="btn-proximo" data-proximo="3">Atacar a cabeça</button>
+            <button class="btn-proximo" data-proximo="4">Agarrar as pernas</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Indo para o caminho com som manso, ele vê um pequeno cervo, com calma o caçador saca sua arma e mira no cervo</p>
+            <button class="btn-proximo" data-proximo="5">Ter misericordia</button>
+            <button class="btn-proximo" data-proximo="6">Atirar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Atacando a Onça na cabeça. ele consegue atordoar e enfincar a faca na onça, ganhando uma nova presa, e podendo voltar a sua casa</p>
+            <button class="btn-proximo" data-proximo="7">voltar para o caminho de casa</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/1.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Ao agarrar as pernas da onça, ela apenas morde o caçador, com isso virando a nova presa da onça e morrendo.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Atirando, você mata o cervo, e volta para o caminho de casa</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o caminho de casa</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>O caçador por algum motivo é fraco e tem pena do cervo, e volta para casa sem nada</p>
+            <button class="btn-proximo" data-proximo="8">Voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Voltando para casa, o caçador se depara com pegadas de duas onças, e se sente observado, o caçador então?</p>
+            <button class="btn-proximo" data-proximo="9">Saca a Arma</button>
+            <button class="btn-proximo" data-proximo="10">Entra pra casa</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Indo de volta para casa, o caçador vê frutas, pega e volta para o caminho de casa</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o caminho </button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Uma onça avança no caçador que ja preparado, atira e mata a onça e</p>
+            <button class="btn-proximo" data-proximo="11">ir até casa</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Calmamente o caçador entra pra casa e tranca as portas, vendo uma onça fora, ele apenas espera ela ir embora</p>
+            <button class="btn-proximo" data-proximo="12">Esperar que ela vá</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/2.jpg" alt="encontrando uma caverna maravilhosa perdida no deserto">
+            <p>O caçador então faz sua comida de mais um dia sobrevivendo na floresta</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>O caçador apenas espera, até que a onça vai embora e eles sente uma fome</p>
+            <button class="btn-proximo" data-proximo="11">Ir até a cozinha</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
